@@ -27,6 +27,7 @@
     "no-use-before-define": "off",
     "prettier/prettier": "error",
     "react/prefer-stateless-function": [2, { "ignorePureComponents": true }],
+    "react/state-in-constructor": [0],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
 
