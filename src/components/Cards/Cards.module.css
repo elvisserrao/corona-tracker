@@ -6,11 +6,12 @@
   padding: 10px 0;
   min-width: 250px;
   max-width: 250px;
+  box-shadow: 5px 5px 2px lightgray !important;
   border-top: 8px solid rgba(255, 255, 255, 1);
 }
 
 .card:hover {
-  box-shadow: 15px 18px 12px lightgray;
+  box-shadow: 15px 18px 12px lightgray !important;
 
 }
 
@@ -28,20 +29,4 @@
 
 .active {
   border-bottom: 8px solid rgba(0, 140, 140, 0.5);
-}
-
-.infected:hover {
-  border-top: 8px solid rgba(0, 0, 255, 0.5);
-}
-
-.recovered:hover {
-  border-top: 8px solid rgba(0, 255, 0, 0.5);
-}
-
-.deaths:hover {
-  border-top: 8px solid rgba(255, 0, 0, 0.5);
-}
-
-.active:hover {
-  border-top: 8px solid rgba(0, 140, 140, 0.5);
 }
