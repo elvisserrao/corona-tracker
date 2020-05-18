@@ -11,7 +11,7 @@ const Chart = () => {
       setDailyData(await fetchDailyData());
     };
     fetchAPI();
-  }, []);
+  }, [setDailyData]);
 
   const lineChart = dailyData.length ? (
     <Line
