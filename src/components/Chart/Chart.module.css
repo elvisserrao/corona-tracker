@@ -1,7 +1,23 @@
 .container {
+  -webkit-transition: 0.15s ease-in;
+  -moz-transition: 0.15s ease-in;
+  -o-transition: 0.15s ease-in;
+  transition: 0.15s ease-in;
+}
+
+.container {
   display: flex;
   justify-content: center;
   width: 85%;
   max-width: 1280px;
   min-width: 480px;
+  box-shadow: 5px 5px 2px lightgray !important;
+  margin-bottom: 30px !important;
+  border-radius: 15px;
+  border: 1px solid rgba(210, 210, 210, 0.5);
+}
+
+.container:hover {
+  box-shadow: 15px 18px 12px lightgray !important;
+  border: 1px solid rgba(230, 230, 230, 0.5);
 }

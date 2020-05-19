@@ -7,13 +7,11 @@
   min-width: 250px;
   max-width: 250px;
   box-shadow: 5px 5px 2px lightgray !important;
-  border-top: 8px solid rgba(255, 255, 255, 1);
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
   margin: auto;
-
 }
 
 .card:hover {
@@ -22,17 +20,17 @@
 }
 
 .infected {
-  border-bottom: 8px solid rgba(0, 0, 255, 0.5);
+  border-bottom: 8px solid rgba(0, 0, 255, 0.5) !important;
 }
 
 .recovered {
-  border-bottom: 8px solid rgba(0, 255, 0, 0.5);
+  border-bottom: 8px solid rgba(0, 255, 0, 0.5) !important;
 }
 
 .deaths {
-  border-bottom: 8px solid rgba(255, 0, 0, 0.5);
+  border-bottom: 8px solid rgba(255, 0, 0, 0.5) !important;
 }
 
 .active {
-  border-bottom: 8px solid rgba(0, 140, 140, 0.5);
+  border-bottom: 8px solid rgba(0, 140, 140, 0.5) !important;
 }
