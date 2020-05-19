@@ -8,6 +8,12 @@
   max-width: 250px;
   box-shadow: 5px 5px 2px lightgray !important;
   border-top: 8px solid rgba(255, 255, 255, 1);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+
 }
 
 .card:hover {
